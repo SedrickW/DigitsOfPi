@@ -26,6 +26,7 @@ int main()
 	const int divisor = 0;
 	LongDivision(dividen, divisor, Counter_ptr);
 	*/
+	delete counter_ptr;
 	std::cin.get();
 	return 0;
 }
